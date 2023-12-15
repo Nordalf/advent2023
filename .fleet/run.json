@@ -1,21 +1,57 @@
 {
     "configurations": [
         {
-            "name": "go build advent/day1",
+            "name": "go build advent/day1/part1",
             "type": "go",
-            "workingDir": "$PROJECT_DIR$/day1",
-            "goExecPath": "/opt/homebrew/Cellar/go/1.21.3/libexec/bin/go",
+            "workingDir": "$PROJECT_DIR$/day1/part1",
+            "goExecPath": "/opt/homebrew/Cellar/go/1.21.5/libexec/bin/go",
             "buildParams": [
-                "advent/day1"
+                "advent/day1/part1"
             ]
         },
         {
-            "name": "go build advent/day2",
+            "name": "go build advent/day1/part2",
             "type": "go",
-            "workingDir": "$PROJECT_DIR$/day2",
-            "goExecPath": "/opt/homebrew/Cellar/go/1.21.3/libexec/bin/go",
+            "workingDir": "$PROJECT_DIR$/day1/part2/",
+            "goExecPath": "/opt/homebrew/Cellar/go/1.21.5/libexec/bin/go",
             "buildParams": [
-                "advent/day2"
+                "advent/day1/part2"
+            ]
+        },
+        {
+            "name": "go build advent/day2/part1",
+            "type": "go",
+            "workingDir": "$PROJECT_DIR$/day2/part1/",
+            "goExecPath": "/opt/homebrew/Cellar/go/1.21.5/libexec/bin/go",
+            "buildParams": [
+                "advent/day2/part1"
+            ]
+        },
+        {
+            "name": "go build advent/day2/part2",
+            "type": "go",
+            "workingDir": "$PROJECT_DIR$/day2/part2/",
+            "goExecPath": "/opt/homebrew/Cellar/go/1.21.5/libexec/bin/go",
+            "buildParams": [
+                "advent/day2/part2"
+            ]
+        },
+        {
+            "name": "go build advent/day3/part1",
+            "type": "go",
+            "workingDir": "$PROJECT_DIR$/day3/part1/",
+            "goExecPath": "/opt/homebrew/Cellar/go/1.21.5/libexec/bin/go",
+            "buildParams": [
+                "advent/day3/part1"
+            ]
+        },
+        {
+            "name": "go build advent/day3_1/part1",
+            "type": "go",
+            "workingDir": "$PROJECT_DIR$/day3_1/part1/",
+            "goExecPath": "/opt/homebrew/Cellar/go/1.21.5/libexec/bin/go",
+            "buildParams": [
+                "advent/day3_1/part1"
             ]
         }
     ]

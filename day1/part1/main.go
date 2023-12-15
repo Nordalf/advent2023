@@ -21,7 +21,7 @@ func main() {
 	var consolidatedString string
 	total := 0
 	
-	calibrationValues, err := os.Open("../datasets/calibration_values.txt")
+	calibrationValues, err := os.Open("../../datasets/calibration_values.txt")
 	if err != nil {
 		log.Printf("error occurred reading file: %v", err.Error())
 		return
